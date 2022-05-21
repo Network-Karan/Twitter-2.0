@@ -9,6 +9,15 @@ const Home: NextPage = () => {
         <title>Twitter 2.0</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
+
+      <main>
+
+        {/*Sidebar*/}
+
+        {/*Feed*/}
+
+        {/*Widgets*/}
+      </main>
     </div>
   )
 }
