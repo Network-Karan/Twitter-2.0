@@ -12,7 +12,7 @@ import {
 
 function Sidebar() {
   return (
-    <div>
+    <div className="h-10 w-10">
         <img src="https://links.papareact.com/drq" alt="" />
     </div>
   )
