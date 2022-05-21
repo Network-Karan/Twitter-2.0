@@ -13,7 +13,7 @@ import SidebarRow from './SidebarRow'
 
 function Sidebar() {
   return (
-    <div>
+    <div className="flex flex=col items-center">
         <img className="5-10 w-10" src="https://links.papareact.com/drq" alt="" />
         <SidebarRow Icon={HomeIcon} title="Home" />
         <SidebarRow Icon={HashtagIcon} title="Explore" />
@@ -21,7 +21,7 @@ function Sidebar() {
         <SidebarRow Icon={MailIcon} title="Messages" />
         <SidebarRow Icon={BookmarkIcon} title="Bookmarks" />
         <SidebarRow Icon={CollectionIcon} title="Lists" />
-        <SidebarRow Icon={UserIcon} title="Sign In" />
+        <SidebarRow Icon={UserIcon} title="Sign In" /> 
         <SidebarRow Icon={DotsCircleHorizontalIcon} title="More" />
     </div>
   )
