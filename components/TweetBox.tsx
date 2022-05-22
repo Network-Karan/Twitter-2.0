@@ -15,9 +15,11 @@ function TwitterBox() {
         src="https://links.papareact.com/gll" 
         alt="" />
 
-        <div className="flex flex-1 pl-2">
+        <div className="flex flex-1 items-center pl-2">
           <form className="flex flex-1 flex-col">
-            <input type="text" placeholder="What's Happening ?" />
+            <input type="text" placeholder="What's Happening ?" 
+            className="h-24 w-full text-xl outline-none placeholder:text-xl"
+            />
             <div className="flex items-center">
               <div className="flex flex-1 space-x-2 text-twitter">
                 <PhotographIcon className="h-5 w-5" />
