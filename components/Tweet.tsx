@@ -1,8 +1,18 @@
 import React from 'react'
+import { Tweet } from '../typings'
 
-function Tweet() {
+
+interface Props {
+    tweet: Tweet
+}
+
+function Tweet({ tweet }: Props) {
   return (
-    <div>Tweet</div>
+      <div>
+          <div>
+              <img src="" alt="" />
+          </div>
+      </div>
   )
 }
 
