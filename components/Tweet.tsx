@@ -1,19 +1,18 @@
 import React from 'react'
 import { Tweet } from '../typings'
 
-
 interface Props {
-    tweet: Tweet
+  tweet: Tweet
 }
 
 function Tweet({ tweet }: Props) {
   return (
+    <div>
       <div>
-          <div>
-              <img src="" alt="" />
-          </div>
+          <img src={tweet.profileImg} alt="" />
       </div>
+    </div>
   )
 }
 
-export default Tweet
+export default Tweet 
